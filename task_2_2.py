@@ -41,7 +41,7 @@ while idx < len(my_list):
     # если ни одно из условий не сработало (число или символы +/- с числом), то переходим к проверке следующего элементу
     else:idx += 1
 # добавляем пробелы к элементам списка для лучшего отображения
-result= " ".join(my_list[0:2]) + my_list[2] + " ".join(my_list[3:6]) + my_list[6] + \
+result = " ".join(my_list[0:2]) + my_list[2] + " ".join(my_list[3:6]) + my_list[6] + \
         " ".join(my_list[7:13]) + my_list[13] + " ".join(my_list[14:16])
 
 print(result)
